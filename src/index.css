@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.reactFlowWrapper {
+  width: 100%;
+  height: 100vh; /* Ajusta la altura según sea necesario */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Crea 4 columnas */
+  grid-gap: 10px; /* Espacio entre columnas */
+}
